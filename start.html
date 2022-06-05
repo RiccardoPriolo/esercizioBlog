@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="It">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta author="Priolo Riccardo" />
+    <meta descripttion="Articolo contenente form" />
+    <title>Lezione HTML</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Blog</h1>
+    </header>
+    <main>
+      <article>
+        <h2>Titolo</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          ducimus facilis necessitatibus, dignissimos sint alias nostrum
+          repellendus voluptatibus recusandae dolore perspiciatis, est in ipsum
+          neque sed ratione at rerum explicabo!
+        </p>
+        <h2>Titolo</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          ducimus facilis necessitatibus, dignissimos sint alias nostrum
+          repellendus voluptatibus recusandae dolore perspiciatis, est in ipsum
+          neque sed ratione at rerum explicabo!
+        </p>
+
+        <img
+          src="assets/hands.png"
+          alt="Immagine che rappresenta mani"
+          width=" 250"
+          height="200"
+        />
+        <img
+          src="assets/laptop.png"
+          alt="Immagine che rappresenta un laptop"
+          width="250"
+          height="200"
+        />
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <h3>Iscriviti al blog!</h3>
+      <p>
+        I campi contrassegnati dal simbolo
+        <strong><abbr title="richiesto">*</abbr></strong>
+      </p>
+      <div>
+        <form action="http://127.0.0.1:5500/start.html" method="get">
+          <label for="fname"
+            >Nome<strong><abbr title="richiesto">*</abbr></strong></label
+          ><br />
+          <input type="text" id="fname" name="fname" required />
+          <br />
+          <label for="lname"
+            >Cognome<strong><abbr title="richiesto">*</abbr></strong></label
+          ><br />
+          <input type="text" id="lname" name="lname" required />
+          <br />
+          <label for="email"
+            >Email<strong><abbr title="richiesto">*</abbr></strong></label
+          ><br />
+          <input type="email" id="email" name="email" required />
+          <div>
+            <section>
+              <button>Invia</button>
+            </section>
+          </div>
+        </form>
+        <div>
+
+    </footer>
+  </body>
+</html>
